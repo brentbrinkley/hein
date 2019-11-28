@@ -1,38 +1,38 @@
 {
-	"name": "theme-hein",
-	"version": "1.0.3",
-	"displayName": "hein Theme",
-	"description": "hein. purple and mint.",
-	"publisher": "sinaburow",
-	"icon": "img/logo.png",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/sinacodes/hein"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"VSCode",
-		"Themes"
-	],
-	"engines": {
-		"vscode": "^1.15.0"
-	},
-	"scripts": {
-		"start": "nodemon --exec vsce package"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "hein",
-				"uiTheme": "vs-dark",
-				"path": "./theme/hein.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"nodemon": "^1.14.12",
-		"vsce": "^1.36.2"
-	}
+  "name": "theme-myhein",
+  "version": "1.0.3",
+  "displayName": "my hein Theme",
+  "description": "hein. purple and mint. with edits",
+  "publisher": "sinaburow",
+  "icon": "img/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brentbrinkley/hein"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "hein",
+        "uiTheme": "vs-dark",
+        "path": "./theme/hein.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12",
+    "vsce": "^1.36.2"
+  }
 }

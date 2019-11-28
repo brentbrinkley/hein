@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "hein",
+  "name": "myhein",
   "type": "dark",
   "colors": {
     // activityBar
@@ -37,7 +37,7 @@
     "dropdown.foreground": "#fff",
     // editor
     // This is the main background color
-    "editor.background": "#161217",
+    "editor.background": "#313131",
     // this is the main text
     "editor.foreground": "#fff",
     // Currently found item
@@ -298,7 +298,7 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#fff"
@@ -348,9 +348,13 @@
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "string.other.link","storage.type.generic.java",
+      "scope": [
+        "support.other.variable",
+        "string.other.link",
+        "storage.type.generic.java",
         "keyword.operator.dereference.java",
-        "storage.modifier.import"],
+        "storage.modifier.import"
+      ],
       "settings": {
         "foreground": "#A9F2E6"
       }
@@ -379,7 +383,7 @@
         "constant.other.key",
         "entity.other.inherited-class",
         "markup.heading",
-        "markup.inserted.git_gutter",
+        "markup.inserted.git_gutter"
       ],
       "settings": {
         "foreground": "#C9BFFF"
@@ -404,8 +408,7 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types",
-
+        "support.type.sys-types"
       ],
       "settings": {
         "foreground": "#67bfb0"
@@ -437,7 +440,7 @@
       "scope": [
         "entity.name.module.js",
         "variable.import.parameter.js",
-        "variable.other.class.js",
+        "variable.other.class.js"
       ],
       "settings": {
         "foreground": "#b5abfc"
@@ -453,7 +456,14 @@
     },
     {
       "name": "entity.name.method.js",
-      "scope": ["entity.name.method.js", "entity.name.tag.jsx", "entity.name.tag.tsx", "variable.other.constant.js","variable.other.constant.tsx", "meta.block variable.other.tsx"],
+      "scope": [
+        "entity.name.method.js",
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx",
+        "variable.other.constant.js",
+        "variable.other.constant.tsx",
+        "meta.block variable.other.tsx"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#b5abfc"
@@ -461,23 +471,34 @@
     },
     {
       "name": "meta.method.js",
-      "scope": [
-        "variable.function.constructor"
-      ],
+      "scope": ["variable.function.constructor"],
       "settings": {
         "foreground": "#b5abfc"
       }
     },
     {
       "name": "Function/Class Name",
-      "scope": ["meta.class-method.js entity.name.function.js", "entity.name.function.js", "meta.class.js entity.name.class", "meta.class meta.function-call variable.function.js", "source.js keyword.control.loop.js", "storage.type.function.arrow.js"],
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "entity.name.function.js",
+        "meta.class.js entity.name.class",
+        "meta.class meta.function-call variable.function.js",
+        "source.js keyword.control.loop.js",
+        "storage.type.function.arrow.js"
+      ],
       "settings": {
         "foreground": "#A9F2E6"
       }
     },
     {
       "name": "Logic",
-      "scope": ["keyword.operator.assignment","keyword.operator.logical.js", "keyword.operator.comparison.js", "keyword.operator.relational.js", "source.js entity.other.attribute-name.js"],
+      "scope": [
+        "keyword.operator.assignment",
+        "keyword.operator.logical.js",
+        "keyword.operator.comparison.js",
+        "keyword.operator.relational.js",
+        "source.js entity.other.attribute-name.js"
+      ],
       "settings": {
         "foreground": "#fff"
       }
@@ -491,7 +512,11 @@
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name.tsx","entity.other.attribute-name.jsx", "entity.other.attribute-name.js"],
+      "scope": [
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.js"
+      ],
       "settings": {
         "foreground": "#C9BFFF"
       }
@@ -750,7 +775,11 @@
     },
     {
       "name": "Markup - Quote",
-      "scope": ["markup.quote", "entity.name.tag.yaml", "variable.other.alias.yaml"],
+      "scope": [
+        "markup.quote",
+        "entity.name.tag.yaml",
+        "variable.other.alias.yaml"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#b5abfc"
